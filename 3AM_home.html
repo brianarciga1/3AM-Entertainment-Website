@@ -3,7 +3,7 @@
 <head>
     <meta name="vieport" content="with=device-width, initial-scale=1.0">
     <title>3AM website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="3AM_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@336&display=swap" rel="stylesheet">
@@ -11,16 +11,20 @@
 </head>
 <body>
     <section class="header">
+        <!----<video autoplay loop muted plays-inline class="back-video">
+            <source src="images/banner.mp4" type="video/mp4">
+        </video>--->
+
         <nav>
-            <a href="index.html"><img src="test-images/logo.png"></a>
+            <a href="3AM_home.html"><img src="images/logo.png"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                  <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="course.html">COURSE</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="3AM_home.html">HOME</a></li>
+                    <li><a href="3AM_about.html">ABOUT</a></li>
+                    <li><a href="3AM_course.html">SHOP</a></li>
+                    <li><a href="3AM_blog.html">BTS</a></li>
+                    <li><a href="3AM_contact.html">CONTACT</a></li>
                  </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -28,59 +32,40 @@
 
 <div class="text-box">
     <h1>The Best ENTERTAINMENT</h1>
-    <p>we make the best movie
+    <p>At 3AM our ideas take flight, Hence the name, it just felt right
     </p>
-    <a href="" class="hero-btn">VISIT OUR YOUTUBE CHANNEL</a>
+    <a href="https://www.youtube.com/@3AM_Entertainment." class="hero-btn">VISIT OUR YOUTUBE CHANNEL</a>
 </div>
 </section>
 
 <!-----course----->
 
-<section class="course">
-    <h1>courses we offer</h1>
-    <p>ih yes mario</p>
 
-    <div class="row">
-        <div class="course-col">
-            <h3>intermediate</h3>
-            <p>oh yea bby1</p>
-        </div>
-        <div class="course-col">
-            <h3>degree</h3>
-            <p>oh yea bby1</p>
-        </div>
-        <div class="course-col">
-            <h3>post grad</h3>
-            <p>oh yea bby1</p>
-        </div>
-    </div>
-
-
-</section>
 <!--------campus--------->
 
 <section class="campus">
-    <h1>our global campoo</h1>
-    <p>oh yea bb</p>
+    <h1><i class="fa fa-film"></i> NOW PLAYING</h1>
+    <p>Check out our latest works!</p>
 
     <div class="row">
         <div class="campus-col">
-            <img src="test-images/london.png">
+            <img src="images/london.png">
             <div class="layer">
-                <h3>LONDON</h3>
+                <h3>THE WANDERER</h3>
             </div>
         </div>
         <div class="campus-col">
-            <img src="test-images/newyork.png">
+            <img src="images/newyork.png">
             <div class="layer">
-                <h3>NEW YORK</h3>
+                <h3>CINEMEN EP2: FILM CLUB</h3>
             </div>
         </div>
         <div class="campus-col">
-            <img src="test-images/washington.png">
+            <img src="images/Cinemen Ep1.gif">
             <div class="layer">
-                <h3>WASHINGTON</h3>
+                <h3><a href="https://youtu.be/yn04nxC9enU" class="youtube-links">CINEMEN EP1: MOVIE NIGHT</h3>
             </div>
+            </a>
         </div>
     </div>
 </section>
@@ -88,23 +73,23 @@
 <!-----------------facilities-->
 
 <section class="facilities">
-    <h1>Our facilities</h1>
-    <p>baby back ribs</p>
+    <h1><i class="fa fa-video-camera"></i> UPCOMING</h1>
+    <p>Currently in the works!</p>
 
     <div class="row">
         <div class="facilities-col">
-            <img src="test-images/library.png">
-            <h3>World class library</h3>
+            <img src="images/WANDERER_top_half (1).png">
+            <h3>The Wanderer</h3>
             <p>babababababababa</p>
         </div>
         <div class="facilities-col">
-            <img src="test-images/basketball.png">
-            <h3>largest playground</h3>
+            <img src="images/basketball.png">
+            <h3>Les Inspectors</h3>
             <p>babababababababa</p>
         </div>
         <div class="facilities-col">
-            <img src="test-images/cafeteria.png">
-            <h3>Tasty food</h3>
+            <img src="images/cafeteria.png">
+            <h3>Saucers N Salsa</h3>
             <p>babababababababa</p>
         </div>
     </div>
@@ -113,12 +98,12 @@
 <!-----------testimonials------->
 
 <section class="testimonials">
-    <h1>What our student</h1>
+    <h1>CRITICS ARE SAYING...</h1>
     <p>sasasasasasasas</p>
 
     <div class="row">
         <div class="testimonials-col">
-            <img src="test-images/user1.jpg">
+            <img src="images/user1.jpg">
             <div>
                 <p>sdsdsfsdfsdfsdfsdfsfsfsfdsfds</p>
                 <h3>Chris</h3>
@@ -130,7 +115,7 @@
             </div>
         </div>
         <div class="testimonials-col">
-            <img src="test-images/user2.jpg">
+            <img src="images/user2.jpg">
             <div>
                 <p>sdsdsfsdfsdfsdfsdfsfsfsfdsfds</p>
                 <h3>Brian</h3>
@@ -145,23 +130,18 @@
 </section>
 
 <!----------call to action-->
-<section class="cta">
-    <h1>Enroll for our course</h1>
-    <a href="" class="hero-btn">CONTACT US</a>
-</section>
 
 <!------footer-->
 <section class="footer">
-    <h4>About Us</h4>
-    <p>sdfsdfsdfsdsgdffdgfgs</p>
+    <h4>FOLLOW US ON</h4>
     <div class="icons">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
+        <a href="https://www.instagram.com/3am_entertainment_official/?hl=en" class="youtube-links"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@3AM_Entertainment." class="youtube-links"><i class="fa fa-youtube-play"></i></a>
+        <a href="https://twitter.com/3amntertainment?s=20" class="youtube-links"><i class="fa fa-twitter"></i></a>
     </div>
-    <p>Made with <i class="fa fa-heart-o"></i> by easy tutorials</p>
+    <p>TM & © 2023 3AM Entertainment All rights reserved.</p>
 </section>
-
+<!--<a href="https://youtu.be/yn04nxC9enU" class="youtube-links"></a>-->
 <!---toggle menu in java--->
 <script>
 
